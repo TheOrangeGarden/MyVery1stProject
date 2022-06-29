@@ -1,0 +1,199 @@
+body {
+    font-family: Gilroy;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 20px;
+}
+
+.navbar ul {
+    width: 940px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header-desc {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    width: 124px;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-left: 23px;
+}
+
+.header-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 11px;
+}
+
+.turning {
+    margin: 40px;
+    transform: rotate(-90deg);
+    margin-right: -48px;
+}
+
+.header_wrapper-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.header-img {
+    height: 387px;
+    background-image: url(../images/Denis-Novik.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+    width: 100%;
+    height: 506px;
+    background: #f6f6f6;
+}
+
+.title {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.about p {
+    width: 485px;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    margin: 35px auto 10px auto;
+}
+
+.skills_subtitle {
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.skills_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills_programs {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 166px;
+}
+
+.skill_rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.skills small {
+    display: block;
+    font-family: "Gilroy Bold";
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: gray;
+    margin-top: 25px;
+}
+
+.portfolio h2 {
+    margin-bottom: 45px;
+    margin-top: 110px;
+
+}
+
+.portfolio_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.portfolio a {
+    padding-top: 25px;
+}
+
+.footer container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h2 {
+    margin-bottom: 0px;
+    margin-top: 114px;
+}
+
+.footer_subtitle {
+    font-family: "Gilroy Medium";
+    text-align: center;
+}
+
+.footer_btn {
+    background-color: black;
+    width: 180px;
+    height: 42px;
+    margin-top: 45px;
+    margin-bottom: 85px;
+    border-radius: 30px;
+    margin-left: 382px;
+}
+
+.footer_btn a {
+    display: block;
+    font-size: 18px;
+    line-height: 2.2;
+    text-align: center;
+    color: white;
+}
+
+.ftr_social-links {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
